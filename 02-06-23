@@ -1,6 +1,7 @@
 class Solution
 {
-    public int maximumDetonation(int[][] bombs) {
+    public int maximumDetonation(int[][] bombs) 
+    {
         Map<Integer, List<Integer>> graph = new HashMap<>();
         int n = bombs.length;
         
