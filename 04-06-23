@@ -12,7 +12,6 @@ class Solution {
         }
         return provinces;
     }
-
     private void dfs(int[][] isConnected, boolean[] visited, int node) {
         visited[node] = true;
         for (int neighbor = 0; neighbor < isConnected.length; neighbor++) {
