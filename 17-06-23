@@ -1,7 +1,7 @@
 class Solution 
 {
     public int makeArrayIncreasing(int[] A, int[] B)
-    {
+   {
         TreeSet<Integer> set = new TreeSet<>(Arrays.stream(B).boxed().toList());
         int[] dp = new int[B.length+1];
         dp[0]=-1;
