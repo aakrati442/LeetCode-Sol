@@ -1,1 +1,35 @@
 
+<head>
+    <!-- Solution as follows -->
+    <style>
+        h2 {
+            color: red;
+            font-size: 24px;
+        }
+        
+        ol {
+            color: blue;
+            font-size: 16px;
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+    
+    <header>
+        <h1>My recent trip to Greece</h1>
+    </header>
+
+    <main>
+        <h2>Overview</h2>
+        <h3>
+            <ol>
+                <li>Greece</li>
+                <li>Trip Options</li>
+                <li>Trip Itinerary</li>
+            </ol>
+        </h3>
+
+</body>
